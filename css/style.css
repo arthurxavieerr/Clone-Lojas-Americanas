@@ -26,9 +26,17 @@
 
 .header-container{
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: #F80032;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.interno{
+    display: flex;
+    width: 1350px;
+    height: 54px;
     align-items: center;
     justify-content: space-around;
 }
@@ -44,6 +52,7 @@
     align-items: center;
     background-color: #fff;
 }
+
 .search{
     outline: none;
     width: 500px;
@@ -127,6 +136,13 @@
     justify-content: space-around;
 }
 
+.second-interno {
+    width: 1260px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
 .found-cep{
     display: flex;
     align-items: center;
@@ -174,11 +190,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: -7px 19px 25px -5px rgba(0,0,0,0.38);
--webkit-box-shadow: -7px 19px 25px -5px rgba(0,0,0,0.38);
--moz-box-shadow: -7px 19px 25px -5px rgba(0,0,0,0.38);
+    box-shadow: -7px 19px 25px -16px rgba(0,0,0,0.38);
+-webkit-box-shadow: -7px 19px 25px -16px rgba(0,0,0,0.38);
+-moz-box-shadow: -7px 19px 25px -16px rgba(0,0,0,0.38);
 }
-
+.interno-three{
+    width: 1270px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
 .departamentos span{
     font-size: 14px;
     font-weight: bold;
@@ -241,4 +262,18 @@
     align-items: center;
     padding: 13px;
     border-bottom: 2px solid #fff;
+}
+
+.oferta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    margin-top: 10px;
+}
+
+.oferta-container img{
+    max-width: 100%;
+    height: 52px;
 }
